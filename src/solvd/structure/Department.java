@@ -1,26 +1,21 @@
 package solvd.structure;
 
+import solvd.Group;
+
+import java.util.List;
 import java.util.Objects;
 
 //Кафедра
-public class Department {
-    private Faculty faculty;
+public class Department extends ContactInfo{
     private String name;
-
+    private List<Group> groups;
     public Department(){
 
     }
-    public Department(Faculty faculty, String name) {
-        this.faculty = faculty;
+    public Department(String phone, String email, String name, List<Group> groups) {
+        super(phone, email);
         this.name = name;
-    }
-
-    public Faculty getFaculty() {
-        return faculty;
-    }
-
-    public void setFaculty(Faculty faculty) {
-        this.faculty = faculty;
+        this.groups = groups;
     }
 
     public String getName() {
@@ -31,24 +26,33 @@ public class Department {
         this.name = name;
     }
 
+    public List<Group> getGroups() {
+        return groups;
+    }
+
+    public void setGroups(List<Group> groups) {
+        this.groups = groups;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
         Department that = (Department) o;
-        return faculty.equals(that.faculty) && name.equals(that.name);
+        return name.equals(that.name) && groups.equals(that.groups);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(faculty, name);
+        return Objects.hash(super.hashCode(), name, groups);
     }
 
     @Override
     public String toString() {
         return "Department{" +
-                "faculty=" + faculty +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
+                ", groups=" + groups +
                 '}';
     }
 }

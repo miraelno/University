@@ -1,6 +1,6 @@
 package solvd.people;
 
-import solvd.EducationType;
+import solvd.enums.EducationType;
 import solvd.RecordBook;
 import solvd.structure.Department;
 

@@ -2,31 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="107929b4-e7c8-46a7-add0-72f1bf6504b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/solvd/EducationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solvd/Speciality.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solvd/Tittles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solvd/people/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/University.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/Faculty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecordBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/RecordBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Schedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tittles.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/people/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/people/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/people/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/people/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/people/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structure/UniversityBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/UniversityBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/Audience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/structure/ContactInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/EducationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/enums/EducationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/RecordBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/RecordBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/Speciality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/Speciality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/Tittles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/enums/Tittles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/people/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/people/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/people/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/people/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/people/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/structure/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/structure/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/Faculty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/structure/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/structure/UniversityBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/UniversityBuilding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +30,13 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +54,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "/Volumes/Macintosh SSD - Data/AQA Java/University"
   }
 }]]></component>

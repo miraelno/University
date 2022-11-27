@@ -1,6 +1,6 @@
 package solvd.people;
 
-import solvd.Tittles;
+import solvd.enums.Tittles;
 import solvd.structure.Department;
 
 import java.util.Date;

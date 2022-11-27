@@ -1,4 +1,4 @@
-package solvd;
+package solvd.enums;
 
 public enum EducationType {
     EXTRAMURAL("Extramural"),
