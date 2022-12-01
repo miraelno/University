@@ -1,5 +1,6 @@
 package solvd;
 
+import solvd.enums.Course;
 import solvd.people.Student;
 import solvd.people.Teacher;
 
@@ -8,6 +9,7 @@ import java.util.Objects;
 
 public class Group {
     private String name;
+    private Course course;
     private List<Student> students;
     private Teacher curator;
 
@@ -15,8 +17,9 @@ public class Group {
 
     }
 
-    public Group(String name, List<Student> students, Teacher curator) {
+    public Group(String name, Course course, List<Student> students, Teacher curator) {
         this.name = name;
+        this.course = course;
         this.students = students;
         this.curator = curator;
     }
@@ -27,6 +30,14 @@ public class Group {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Course getCourse() {
+        return course;
+    }
+
+    public void setCourse(Course course) {
+        this.course = course;
     }
 
     public List<Student> getStudents() {
@@ -50,18 +61,19 @@ public class Group {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Group group = (Group) o;
-        return name.equals(group.name) && students.equals(group.students) && curator.equals(group.curator);
+        return name.equals(group.name) && course == group.course && students.equals(group.students) && curator.equals(group.curator);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, students, curator);
+        return Objects.hash(name, course, students, curator);
     }
 
     @Override
     public String toString() {
         return "Group{" +
                 "name='" + name + '\'' +
+                ", course=" + course +
                 ", students=" + students +
                 ", curator=" + curator +
                 '}';

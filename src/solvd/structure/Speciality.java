@@ -8,7 +8,6 @@ import java.util.Objects;
 public class Speciality {
     private String code;
     private String name;
-
     private List<Group> groups;
 
     public Speciality(){

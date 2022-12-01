@@ -3,7 +3,7 @@ package solvd.structure;
 import java.util.List;
 import java.util.Objects;
 
-public class Faculty extends ContactInfo{
+public class Faculty extends AbstractStructure {
     private String name;
     private List<Department> departments;
 

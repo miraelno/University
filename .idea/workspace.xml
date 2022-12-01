@@ -2,26 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="107929b4-e7c8-46a7-add0-72f1bf6504b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solvd/Audience.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solvd/structure/ContactInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/enums/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/interfaces/Filterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/schedule/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solvd/schedule/Schedule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Contract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/EducationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/enums/EducationType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solvd/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/RecordBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/RecordBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Schedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/Speciality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/Speciality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/Schedule.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solvd/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/Tittles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/enums/Tittles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solvd/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/people/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/people/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/people/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solvd/people/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/people/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/structure/ContactInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/AbstractStructure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solvd/structure/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solvd/structure/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/Faculty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solvd/structure/Speciality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/Speciality.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solvd/structure/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/University.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solvd/structure/UniversityBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solvd/structure/UniversityBuilding.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -50,14 +48,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Volumes/Macintosh SSD - Data/AQA Java/University"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Macintosh SSD - Data/AQA Java/University&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

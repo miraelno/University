@@ -1,17 +1,19 @@
 package solvd.people;
 
+import solvd.enums.Gender;
+
 import java.util.Date;
 import java.util.Objects;
 
 public abstract class Person {
     private String fullName;
-    private String gender;
+    private Gender gender;
     private Date birthday;
 
     public Person(){
 
     }
-    public Person(String fullName, String gender, Date birthday) {
+    public Person(String fullName, Gender gender, Date birthday) {
         this.fullName = fullName;
         this.gender = gender;
         this.birthday = birthday;
@@ -25,11 +27,11 @@ public abstract class Person {
         this.fullName = fullName;
     }
 
-    public String getGender() {
+    public Gender getGender() {
         return gender;
     }
 
-    public void setGender(String gender) {
+    public void setGender(Gender gender) {
         this.gender = gender;
     }
 
@@ -46,7 +48,7 @@ public abstract class Person {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Person person = (Person) o;
-        return fullName.equals(person.fullName) && gender.equals(person.gender) && birthday.equals(person.birthday);
+        return fullName.equals(person.fullName) && gender == person.gender && birthday.equals(person.birthday);
     }
 
     @Override
@@ -58,7 +60,7 @@ public abstract class Person {
     public String toString() {
         return "Person{" +
                 "fullName='" + fullName + '\'' +
-                ", gender='" + gender + '\'' +
+                ", gender=" + gender +
                 ", birthday=" + birthday +
                 '}';
     }

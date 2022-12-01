@@ -2,15 +2,15 @@ package solvd.structure;
 
 import java.util.Objects;
 
-public abstract class ContactInfo {
+public abstract class AbstractStructure {
     private String phone;
     private String email;
 
-    public ContactInfo(){
+    public AbstractStructure(){
 
     }
 
-    public ContactInfo(String phone, String email) {
+    public AbstractStructure(String phone, String email) {
         this.phone = phone;
         this.email = email;
     }
@@ -35,7 +35,7 @@ public abstract class ContactInfo {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ContactInfo that = (ContactInfo) o;
+        AbstractStructure that = (AbstractStructure) o;
         return phone.equals(that.phone) && email.equals(that.email);
     }
 

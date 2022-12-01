@@ -3,8 +3,10 @@ package solvd.structure;
 import java.util.List;
 import java.util.Objects;
 
-public class University extends ContactInfo{
+public class University{
     private String name;
+    private String phone;
+    private String email;
     private String address;
     private List<UniversityBuilding> universityBuildings;
     private List<Faculty> faculties;
@@ -13,10 +15,11 @@ public class University extends ContactInfo{
 
     }
 
-    public University(String phone, String email, String name, String address,
+    public University(String name, String phone, String email, String address,
                       List<UniversityBuilding> universityBuildings, List<Faculty> faculties) {
-        super(phone, email);
         this.name = name;
+        this.phone = phone;
+        this.email = email;
         this.address = address;
         this.universityBuildings = universityBuildings;
         this.faculties = faculties;
@@ -28,6 +31,22 @@ public class University extends ContactInfo{
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getAddress() {
@@ -58,20 +77,20 @@ public class University extends ContactInfo{
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        if (!super.equals(o)) return false;
         University that = (University) o;
-        return name.equals(that.name) && address.equals(that.address) && universityBuildings.equals(that.universityBuildings) && faculties.equals(that.faculties);
+        return name.equals(that.name) && phone.equals(that.phone) && email.equals(that.email) && address.equals(that.address) && Objects.equals(universityBuildings, that.universityBuildings) && Objects.equals(faculties, that.faculties);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(super.hashCode(), name, address, universityBuildings, faculties);
+        return Objects.hash(name, phone, email, address, universityBuildings, faculties);
     }
-
     @Override
     public String toString() {
         return "University{" +
                 "name='" + name + '\'' +
+                ", phone='" + phone + '\'' +
+                ", email='" + email + '\'' +
                 ", address='" + address + '\'' +
                 ", universityBuildings=" + universityBuildings +
                 ", faculties=" + faculties +

@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Objects;
 
 //Кафедра
-public class Department extends ContactInfo{
+public class Department extends AbstractStructure {
     private String name;
     private List<Group> groups;
     public Department(){
